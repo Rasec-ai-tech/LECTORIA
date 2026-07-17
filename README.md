@@ -183,13 +183,13 @@ Si le projet est bien configuré pour servir le dossier public/ comme racine du 
 
 ## Parcours utilisateur recommandé
 
-### 1. Ouvrir la page d'accueil.
-### 2. Faire une recherche dans le catalogue.
-### 3. Ouvrir une fiche détail.
-### 4. Ajouter un livre à la liste de lecture.
-### 5. Consulter la liste de lecture.
-### 6. Se connecter avec un compte lecteur.
-### 7. Accéder au back-office avec un compte administrateur.
+1. Ouvrir la page d'accueil.
+2. Faire une recherche dans le catalogue.
+3. Ouvrir une fiche détail.
+4. Ajouter un livre à la liste de lecture.
+5. Consulter la liste de lecture.
+6. Se connecter avec un compte lecteur.
+7. Accéder au back-office avec un compte administrateur.
 
 ## Points à surveiller lors d'un test manuel
 
@@ -215,4 +215,10 @@ Ce projet doit rester conforme à la séparation suivante :
 - public/ : uniquement la logique d'orchestration, le rendu et les endpoints HTTP.
 - src/ : toute la logique métier, l'accès aux données et les services.
 
-En production ou en environnement partagé, il faudra aussi vérifier les paramètres de sécurité des cookies PHP, le contexte HTTPS, les règles de redirection et la protection des entrées côté serveur.
+## Auteur
+
+Projet développé par IMIEN Jean César Le Grand dans le cadre de la formation D-CLIC — Développement Web, niveau intermédiaire.
+
+## Licence
+
+Ce dépôt est destiné à un usage académique et de démonstration. Toute réutilisation ou diffusion doit faire l'objet d'une validation préalable.
